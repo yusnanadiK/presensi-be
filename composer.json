@@ -8,8 +8,8 @@
         "framework"
     ],
     "license": "MIT",
-    "ext-gd": "*",
     "require": {
+        "ext-gd": "*",
         "php": "^8.2",
         "intervention/image": "^3.11",
         "laravel/framework": "^12.0",
@@ -73,6 +73,9 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
+        "platform": {
+            "php": "8.4.0"
+        },
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
